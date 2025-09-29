@@ -6,9 +6,9 @@ pensize(1)
 h=0
 goto(0,20)
 def draw(ang,n):
-    circle(5+n, 60)
+    circle(5+n, 58)
     left(ang)
-    circle(5+n*2, 60)
+    circle(5+n*2, 58)
 for i in range(200):
     color(hsv_to_rgb(h, 1, 1))
     h += 0.0062
