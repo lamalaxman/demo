@@ -133,7 +133,7 @@ def main():
                 print(f"Book returned. Late fee paid: ${fee:.2f}")
             except Exception as e: print(f"Error: {e}")
         elif choice == 6:
-            print("Exiting Goodbye!"); break
+            print("Exiting!"); break
         else: print("Invalid choice, try again!")
 
 
